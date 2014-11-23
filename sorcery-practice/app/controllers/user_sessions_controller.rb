@@ -19,3 +19,4 @@ class UserSessionsController < ApplicationController
     redirect_to(:users, notice: 'Logged out!')
   end
 end
+
